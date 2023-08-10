@@ -1,0 +1,106 @@
+{
+    "name": "Dark Sim Theme",
+    "dataColors": [
+        "#117865",
+        "#F6B53D",
+        "#E66C37",
+        "#6B007B",
+        "#118DFF",
+        "#12239E",
+        "#898989",
+        "#A2C8EC",
+        "#3599B8",
+        "#DFBFBF"
+    ],
+    "bad": "#AB1A1A",
+    "neutral": "#E5AC12",
+    "good": "#178E0B",
+    "minimum": "#FD625E",
+    "center": "#F5D33F",
+    "maximum": "#01B8AA",
+	
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "color": { "solid": { "color": "#262735" } },
+                        "transparency": 0
+                    }
+                ],
+                "card": {
+                    "background": [
+                        {
+                            "color": { "solid": { "color": "#323447" } },
+                            "transparency": 0
+                        }
+                    ],
+                    "border": [
+                        {
+                            "show": true,
+                            "color": { "solid": { "color": "#323447" } },
+                            "radius": 8
+                        }
+                    ],
+                    "calloutValue": {
+                        "color": { "solid": { "color": "#FFFFFF" } }
+                    },
+                    "categoryLabels": {
+                        "color": { "solid": { "color": "#FFFFFF" } }
+                    },
+                    "effect": {
+                        "background": {
+                            "color": { "solid": { "color": "#323447" } }
+                        }
+                    }
+                },
+                "barChart": {
+                    "plotArea": {
+                        "background": [
+                            {
+                                "color": { "solid": { "color": "#323447" } },
+                                "transparency": 0
+                            }
+                        ]
+                    },
+                    "categoryAxis": {
+                        "axis": {
+                            "labelColor": { "solid": { "color": "#FFFFFF" } },
+                            "titleColor": { "solid": { "color": "#FFFFFF" } }
+                        },
+                        "grid": {
+                            "lineColor": { "solid": { "color": "#FFFFFF" } }
+                        }
+                    },
+                    "valueAxis": {
+                        "axis": {
+                            "labelColor": { "solid": { "color": "#FFFFFF" } },
+                            "titleColor": { "solid": { "color": "#FFFFFF" } }
+                        },
+                        "grid": {
+                            "lineColor": { "solid": { "color": "#FFFFFF" } }
+                        }
+                    },
+                    "dataPoint": {
+                        "defaultColor": { "solid": { "color": "#117865" } },
+                        "showAllDataPoints": false,
+                        "labelColor": { "solid": { "color": "#FFFFFF" } }
+                    },
+                    "legend": {
+                        "titleColor": { "solid": { "color": "#FFFFFF" } },
+                        "labelColor": { "solid": { "color": "#FFFFFF" } }
+                    },
+                    "title": {
+                        "color": { "solid": { "color": "#FFFFFF" } }
+                    }
+                },
+                "foreground": {
+                    "solid": { "color": "#323447" }
+                },
+                "tableAccent": {
+                    "solid": { "color": "#323447" }
+                }
+            }
+        }
+    }
+}
